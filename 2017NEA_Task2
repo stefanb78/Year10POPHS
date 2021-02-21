@@ -1,3 +1,5 @@
+import sys
+
 print("Welcome")
 email = input("Enter your email address: \n")
 
@@ -23,6 +25,9 @@ while True:
     else:
         sys.exit("Skill level does not exist")
 
+    # entry_fee *= 1.50 is the same as writing
+    # entry_fee = entry_fee * 1.50
+    # same as the +=
     if currency == " USD":
         entry_fee *= 1.50
     elif currency == " AUD":
@@ -34,3 +39,4 @@ while True:
 
     if another_fee.upper() == "NO":
         break
+
