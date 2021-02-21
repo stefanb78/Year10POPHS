@@ -34,6 +34,6 @@ while True:
 
     another_fee = input("Do you want to calculate another fee? Yes/No: \n")
 
-    if another_fee.upper() == "NO":
+    if another_fee.upper() == "No":
         break
 
